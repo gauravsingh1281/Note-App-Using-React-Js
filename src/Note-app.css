@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-note {
+  width: 40%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 5px gray;
+  position: relative;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+  margin: 10px 0;
+}
+textarea {
+  resize: none;
+}
+.btn2,
+.btn1 {
+  border-radius: 50%;
+  position: absolute;
+  top: 106px;
+  right: 0;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(255, 255, 92);
+}
+.note-container {
+  width: 20%;
+  min-height: 139px;
+  border: 1px solid black;
+  padding: 5px 20px;
+  margin: 50px 20px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.note-container h1,
+p {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note-sec {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn2:hover,
+.btn1:hover {
+  background-color: rgb(255, 255, 255);
+}
